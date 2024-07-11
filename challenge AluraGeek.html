@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/flexbox.css">
+    <title>AluraGeek</title>
+
+</head>
+
+<body>
+    <section class="menu">
+        <header class="menu__header">
+            <div>
+                <img src="./imagenes/corazones.png" alt="3 corazones">
+            </div>
+            <h3 class="menu__title">AluraGeek</h3>
+        </header>
+    </section>
+
+
+    <section class="productos" id="productos">
+        <div class="productos__box">
+            <h3 class="productos__titulo">Mis Productos</h3>
+            <div class="productos__container" data-lista>
+                <!-- Tarjetas de los productos -->
+                <!-- <div class="producto">
+                    <div class="producto__info">
+                        <img class="producto__imagen" src="./imagenes/pendrive.png" alt="Nombre del Producto">
+                        <h4 class="producto__nombre">Pen Drive</h4>
+                    </div>
+                    <div class="producto__accion">
+                        <p class="producto__precio">$20.99</p>
+                        <button class="producto__borrar">
+                            <img class="tacho" src="./imagenes/basura.png" alt="Tacho de basura">
+                            <i class="fa-solid fa-trash-can">
+                            </i></button>
+                    </div>
+                </div>
+
+                <div class="producto">
+                    <div class="producto__info">
+                        <img class="producto__imagen" src="./imagenes/pendrive.png" alt="Nombre del Producto">
+                        <h4 class="producto__nombre">Pen Drive</h4>
+                    </div>
+                    <div class="producto__accion">
+                        <p class="producto__precio">$20.99</p>
+                        <button class="producto__borrar">
+                            <img class="tacho" src="./imagenes/basura.png" alt="Tacho de basura">
+                            <i class="fa-solid fa-trash-can">
+                            </i></button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        </div>
+
+        <!-- Foormulario -->
+        <section class="formulario" id="formulario">
+            <div class="formulario__container">
+                <h3 class="formulario__titulo">Agregar producto:</h3>
+                <form class="formulario__producto" name="form" data-formulario>
+                    <input class="formulario__input" type="text" name="nombre" placeholder="Nombre..." data-titulo>
+                    <input class="formulario__input" type="text" name="precio" placeholder="Precio..." data-descripcion>
+                    <input class="formulario__input" type="text" name="imagen" placeholder="URL de la Imagen..."
+                        data-url>
+                    <div class="botones">
+                        <button type="submit" class="formulario__enviar">Agregar</button>
+                        <button type="reset" class="formulario__reset">Limpiar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <div class="footer__titulo"><img src="./imagenes/corazones.png" alt="3 corazones">
+                <h3 class="footer__title">AluraGeek</h3>
+            </div>
+            <div>
+                <p>Desarrollado por Leonel</p>
+                <p class="footer__ano">2024</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
